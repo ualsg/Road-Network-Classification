@@ -1,8 +1,7 @@
->📋  A template README.md for code accompanying a Machine Learning paper
 
-# My Paper Title
+# Classification of Urban Morphology with Deep Learning: Application on Urban Vitality
 
-This repository is the official implementation of [My Paper Title](https://arxiv.org/abs/2030.12345). 
+This repository is the official implementation of [Classification of Urban Morphology with Deep Learning: Application on Urban Vitality](The link would be updated once the paper is published). 
 
 >📋  Optional: include a graphic explaining your approach/main result, bibtex entry, link to demos, blog posts and tutorials
 
