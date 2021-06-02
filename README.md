@@ -1,45 +1,34 @@
 
 # Classification of Urban Morphology with Deep Learning: Application on Urban Vitality
 
-This repository is the official implementation of [Classification of Urban Morphology with Deep Learning: Application on Urban Vitality](https://arxiv.org/abs/2105.09908). It includes the major codes (written in Python) involved in the paper. We also offer some tractable tutorials in Notebook to show how to use our two modules, `CRHD generator` and `Morphoindex generator`. `CRHD generator` can automatically produce Colored Road Hierarchy Diagram (CRHD) for a given urban area. `Morphoindex generator` can automatically generate both traditional morphological indices based on built environment Shapefiles and road network class probabilities based on our road network classifier.
+This repository is the official implementation of [Classification of Urban Morphology with Deep Learning: Application on Urban Vitality](https://arxiv.org/abs/2105.09908). It includes the major codes (written in Python) involved in the paper. We also offer some tractable tutorials in Notebook to show how to use our two modules, `CRHD generator` and `Morphoindex generator`. `CRHD generator` can automatically produce Colored Road Hierarchy Diagram (CRHD) for a given urban area. `Morphoindex generator` can automatically generate both traditional morphological indices based on built environment Shapefiles and road network class probabilities based on our road network classification model.
 
 ## Requirements
 
-To use our `CRHD generator`, you need to install the requirements:
+To use `CRHD generator`, you need to install the requirements:
 
 ```setup
 pip install osmnx
 pip install geopandas
 pip install matplotlib
 ```
+To use `Morphoindex generator`, you need to install the additional requirements:
 
->📋  Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
+```setup
+pip install tensorflow
+pip install keras
+pip install cv2
+pip install numpy
+```
 
 ## Training
 
-To train the model(s) in the paper, run this command:
-
-```train
-python train.py --input-data <path_to_data> --alpha 10 --beta 20
-```
-
->📋  Describe how to train the models, with example commands on how to train the models in your paper, including the full training procedure and appropriate hyperparameters.
-
-## Evaluation
-
-To evaluate my model on ImageNet, run:
-
-```eval
-python eval.py --model-file mymodel.pth --benchmark imagenet
-```
-
->📋  Describe how to evaluate the trained models on benchmarks reported in the paper, give commands that produce the results (section below).
 
 ## Pre-trained Models
 
-You can download pretrained models here:
+You can download our pretrained models here:
 
-- [My awesome model](https://drive.google.com/mymodel.pth) trained on ImageNet using parameters x,y,z. 
+- [Road network classification model](https://drive.google.com/mymodel.pth) trained on our labelled image set using ResNet-34 architecture, learning rate as 0.0005, batch size as 2. 
 
 >📋  Give a link to where/how the pretrained models can be downloaded and how they were trained (if applicable).  Alternatively you can have an additional column in your results table with a link to the models.
 
