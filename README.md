@@ -33,13 +33,11 @@ You can download our pretrained models here:
 
 Our model achieves the following performance on out testing set:
 
-**Confusion matrix:**
+**Confusion matrix and ROC curves:**
 
-![image](https://github.com/ualsg/Road-Network-Classification/blob/main/images/confusion_matrix.png)
+![image](https://github.com/ualsg/Road-Network-Classification/blob/main/images/results.png)
 
-**ROC curves:**
 
-![image](https://github.com/ualsg/Road-Network-Classification/blob/main/images/roc_curves.png)
 
 ## Contributing
 
