@@ -20,17 +20,14 @@ pip install keras
 pip install cv2
 pip install numpy
 ```
+Also, make sure you have downloaded our pretrained model as well.
 
-## Training
-
-
-## Pre-trained Models
+## Pre-trained Model
 
 You can download our pretrained models here:
 
-- [Road network classification model](https://drive.google.com/mymodel.pth) trained on our labelled image set using ResNet-34 architecture, learning rate as 0.0005, batch size as 2. 
+- [Road network classification model](https://drive.google.com/file/d/1N7T9lN4TL5r8EqduZfWv22ROZO4zp_FN/view?usp=sharing) trained on our labelled image set using ResNet-34 architecture, learning rate as 0.0005, batch size as 2. 
 
->📋  Give a link to where/how the pretrained models can be downloaded and how they were trained (if applicable).  Alternatively you can have an additional column in your results table with a link to the models.
 
 ## Results
 
