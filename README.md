@@ -20,7 +20,7 @@ pip install keras
 pip install cv2
 pip install numpy
 ```
-Also, make sure you have downloaded our pretrained model as well.
+If you want to use our Morphoindex generator to calculate road network class probabilities, you should also download `config.py`, `MODEL.py` and `Build_model.py` togehther with `morphoindex_generator.py`, and put them in the same filepath. Also, make sure you have downloaded our pretrained model which you can find below.
 
 ## Pre-trained Model
 
@@ -34,10 +34,12 @@ You can download our pretrained models here:
 Our model achieves the following performance on out testing set:
 
 **Confusion matrix:**
-![image](https://github.com/ualsg/Road-Network-Classification/tree/main/images/confusion_matrix.png)
+
+![image](https://github.com/ualsg/Road-Network-Classification/blob/main/images/confusion_matrix.png)
 
 **ROC curves:**
-![image](https://github.com/ualsg/Road-Network-Classification/tree/main/images/roc_curves.png)
+
+![image](https://github.com/ualsg/Road-Network-Classification/blob/main/images/roc_curves.png)
 
 ## Contributing
 
