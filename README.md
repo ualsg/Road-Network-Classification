@@ -31,16 +31,13 @@ You can download our pretrained models here:
 
 ## Results
 
-Our model achieves the following performance on :
+Our model achieves the following performance on out testing set:
 
-### [Image Classification on ImageNet](https://paperswithcode.com/sota/image-classification-on-imagenet)
+**Confusion matrix: **
+![image](https://github.com/ualsg/Road-Network-Classification/tree/main/images/confusion_matrix.png)
 
-| Model name         | Top 1 Accuracy  | Top 5 Accuracy |
-| ------------------ |---------------- | -------------- |
-| My awesome model   |     85%         |      95%       |
-
->📋  Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
-
+**ROC curves: **
+![image](https://github.com/ualsg/Road-Network-Classification/tree/main/images/roc_curves.png)
 
 ## Contributing
 
