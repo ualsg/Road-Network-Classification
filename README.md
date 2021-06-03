@@ -31,7 +31,7 @@ You can download our pretrained models here:
 
 ## Results
 
-Our model achieves the following performance on out testing set:
+Our model achieves the following performance on the testing set:
 
 **Confusion matrix and ROC curves:**
 
