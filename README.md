@@ -22,6 +22,13 @@ pip install numpy
 ```
 If you want to use our Morphoindex generator to calculate road network class probabilities, you should also download `config.py`, `MODEL.py` and `Build_model.py` togehther with `morphoindex_generator.py`, and put them in the same filepath. Also, make sure you have downloaded our pretrained model which you can find below.
 
+## Tutorials
+To let you quickly understand how to use our tools, we prepared some easy tutorials for you to have a glance:
+
+[CRHD generator tutorial](https://github.com/ualsg/Road-Network-Classification/blob/main/tutorials/crhd_generator_tutorial.ipynb)
+
+[Morphoindex generator tutorial](https://github.com/ualsg/Road-Network-Classification/blob/main/tutorials/mophoindex_generator_tutorial.ipynb)
+
 ## Pre-trained Model
 
 You can download our pretrained models here:
@@ -37,8 +44,4 @@ Our model achieves the following performance on the testing set:
 
 ![image](https://github.com/ualsg/Road-Network-Classification/blob/main/images/results.png)
 
-
-
-## Contributing
-
->📋  Pick a licence and describe how to contribute to your code repository. 
+ 
