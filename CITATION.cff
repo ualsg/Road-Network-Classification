@@ -1,25 +1,40 @@
-# YAML 1.2
----
-authors: 
-  -
-    affiliation: "National University of Singapore, Singapore"
-    family-names: Chen
-    given-names: Wangyang
-    orcid: "https://orcid.org/0000-0002-4036-1957"
-  -
-    affiliation: "National University of Singapore, Singapore"
-    family-names: Wu
-    given-names: Abraham Noah
-    orcid: "https://orcid.org/0000-0001-9586-3201"
-  -
-    affiliation: "National University of Singapore, Singapore"
-    family-names: Biljecki
-    given-names: Filip
-    orcid: "https://orcid.org/0000-0002-6229-7749"
-
-cff-version: "1.1.0"
-date-released: 2021-05-07
-message: "If you use this software, please cite it using these metadata."
-repository-code: "https://github.com/ualsg/Road-Network-Classification"
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Chen"
+  given-names: "Wangyang"
+  orcid: "https://orcid.org/0000-0002-4036-1957"
+  affiliation: "National University of Singapore, Singapore"
+- family-names: "Wu"
+  given-names: "Abraham Noah"
+  orcid: "https://orcid.org/0000-0001-9586-3201"
+  affiliation: "National University of Singapore, Singapore"
+- family-names: "Biljecki"
+  given-names: "Filip"
+  orcid: "https://orcid.org/0000-0002-6229-7749"
+  affiliation: "National University of Singapore, Singapore"
 title: "Classification of Urban Morphology with Deep Learning: Application on Urban Vitality"
-...
+version: 1.0
+date-released: 2020-04-01
+url: "https://github.com/ualsg/Road-Network-Classification"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Chen"
+    given-names: "Wangyang"
+    orcid: "https://orcid.org/0000-0002-4036-1957"
+    affiliation: "National University of Singapore, Singapore"
+  - family-names: "Wu"
+    given-names: "Abraham Noah"
+    orcid: "https://orcid.org/0000-0001-9586-3201"
+    affiliation: "National University of Singapore, Singapore"
+  - family-names: "Biljecki"
+    given-names: "Filip"
+    orcid: "https://orcid.org/0000-0002-6229-7749"
+    affiliation: "National University of Singapore, Singapore"
+  doi: "https://doi.org/10.1016/j.compenvurbsys.2021.101706"
+  journal: "Computers, Environment and Urban Systems"
+  title: "Classification of Urban Morphology with Deep Learning: Application on Urban Vitality"
+  issue: 101706
+  volume: 90
+  year: 2021
