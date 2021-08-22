@@ -48,20 +48,22 @@ Our model achieves the following performance on the testing set:
 
 ## Paper
 
-A [preprint](https://arxiv.org/abs/2105.09908) about the work is available.
+A [paper](https://doi.org/10.1016/j.compenvurbsys.2021.101706) about the work is available.
 
 If you use this work in a scientific context, please cite this article.
 
-Chen W, Wu AN, Biljecki F (2021). Classification of Urban Morphology with Deep Learning: Application on Urban Vitality. arXiv:2105.09908.
+Chen W, Wu AN, Biljecki F (2021): Classification of Urban Morphology with Deep Learning: Application on Urban Vitality. Computers, Environment and Urban Systems 90: 101706.
 
 ```
-@misc{chen2021classification,
-      title={Classification of Urban Morphology with Deep Learning: Application on Urban Vitality}, 
-      author={Wangyang Chen and Abraham Noah Wu and Filip Biljecki},
-      year={2021},
-      eprint={2105.09908},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{2021_ceus_dl_morphology,
+  author = {Wangyang Chen and Abraham Noah Wu and Filip Biljecki},
+  doi = {10.1016/j.compenvurbsys.2021.101706},
+  journal = {Computers, Environment and Urban Systems},
+  pages = {101706},
+  title = {Classification of Urban Morphology with Deep Learning: Application on Urban Vitality},
+  url = {https://doi.org/10.1016/j.compenvurbsys.2021.101706},
+  volume = {90},
+  year = 2021
 }
 ```
 
