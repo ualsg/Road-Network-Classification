@@ -32,9 +32,9 @@ preferred-citation:
     given-names: "Filip"
     orcid: "https://orcid.org/0000-0002-6229-7749"
     affiliation: "National University of Singapore, Singapore"
-  doi: "https://doi.org/10.1016/j.compenvurbsys.2021.101706"
+  doi: "10.1016/j.compenvurbsys.2021.101706"
   journal: "Computers, Environment and Urban Systems"
   title: "Classification of Urban Morphology with Deep Learning: Application on Urban Vitality"
-  issue: 101706
+  start: 101706
   volume: 90
   year: 2021
